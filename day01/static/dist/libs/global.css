@@ -1,0 +1,304 @@
+@charset "utf-8";
+/*--Reset--*/
+html {
+	font-family: "Microsoft YaHei", SimHei, sans-serif, Helvetica;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    font-size:16px;
+}
+html{-webkit-tap-highlight-color:transparent;}
+html, body, div, table, tr, td, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, form, input, img, span, a, b, i, em {
+	border: 0;
+    margin: 0;
+    padding: 0;
+}
+body, div, table, tr, td, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd,canvas,section,input {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+i,b{
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-size:16px;
+    color: #333;
+    font-style: normal;
+    line-height:24px;
+    text-align: left;
+    text-decoration: none;
+    background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+ul, li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    vertical-align: text-bottom;
+}
+
+input {
+    vertical-align: bottom;
+    outline: none;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover, a:active {
+    outline: none;
+}
+
+button {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/*--Basic Class--*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.oh{
+	overflow: hidden;
+}
+
+.clear:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.clear:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.db {
+    display: block;
+}
+.dib{
+    display: inline-block;
+}
+
+.bg_gray {
+    background-color: #f4f4f4;
+}
+body.bg_gray{
+    background-color: #f1f5f8;
+}
+.bg_blue {
+    background-color: #5e94ef;
+}
+.bg_orange {
+    background-color: #faa90e;
+}
+
+.disabled {
+    cursor: default;
+}
+
+.active {
+    cursor: pointer;
+}
+
+.mt10 {
+    margin-top:.3125rem;
+}
+.mb10 {
+    margin-bottom:.3125rem;
+}
+.mt16{
+    margin-top:.5rem;
+}
+.mt20 {
+    margin-top:.625rem;
+}
+.mt32{
+    margin-top:1rem;
+}
+.mt36{
+    margin-top:1.125rem;
+}
+.mb20 {
+    margin-bottom:.625rem;
+}
+
+/*grid*/
+.wrap {
+    width: 100%;
+    display:table;
+}
+
+.container {
+    width:100%;
+    padding:0 1.25rem;
+    display: table;
+}
+
+.container:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.container:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.column {
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 4.5em;
+    background-color: #0b0b0c;
+    color: #fff;
+}
+.header_title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 3em;
+    width: 100%;
+    height: 3em;
+}
+
+.btn_return {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    margin: 1.25em 1em;
+    top: 0;
+    left: 0;
+}
+/*common*/
+.dn {
+    display: none;
+}
+
+.db {
+    display: block;
+}
+.btn {
+	display:block;
+    width: 100%;
+    text-align: center;
+    background-color: #5e94ef;
+    color: #fff;
+}
+.blue{
+    color:#5e94ef;
+}
+.bg_blue{
+    background:#5e94ef;
+}
+.red {
+    color: #ff5e44;
+}
+.green{
+    color: #2cbf97;
+}
+/*fontSize*/
+.fs_36{
+    font-size:1.125rem;
+}
+.fs_30{
+    font-size:.9375rem;
+}
+.fs_26{
+    font-size:.8125rem;
+}
+.fs_22{
+    font-size:.6875rem;
+}
+
+/*其他*/
+.arrow-up {
+    width:0;
+    height:0;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+    border-bottom:30px solid #fff;
+}
+
+/*箭头向下*/
+.arrow-down {
+    width:0;
+    height:0;
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-top:20px solid green;
+}
+
+/*横向滚动条隐藏*/
+::-webkit-scrollbar{width:0;}
+::-webkit-scrollbar-track{background:rgba(0,0,0,0);}
+
+/*渐隐动画*/
+.prompt_inner .prompt{
+    position:fixed;
+    width:7.5625rem;
+    border-radius:.375rem;
+    height:2.4375rem;
+    line-height:2.4375rem;
+    text-align: center;
+    font-size:.875rem;
+    color: #fff;
+    top:2.875rem;
+    left:50%;
+    margin-left:-3.78125rem;
+    background:#666;
+    opacity:0;
+}
+
+
+
+

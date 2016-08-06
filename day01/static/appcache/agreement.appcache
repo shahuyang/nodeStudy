@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# version v1.0.1
+
+CACHE:
+/test/dist/libs/global.css
+/test/dist/libs/zepto.min.js
+/test/dist/libs/public.js
+/test/dist/css/style.css
+/test/dist/js/agreement.js
+NETWORK:
+/test/templates/agreement.html
+
+FALLBACK:

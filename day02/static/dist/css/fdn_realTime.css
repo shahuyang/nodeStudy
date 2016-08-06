@@ -1,0 +1,46 @@
+@charset "utf-8";
+/***** 非货币基金实时估值 *****/
+.fd_chart_list{
+    margin-top:1rem;
+}
+.netWorth_tab_inner p{
+    font-size:.5625rem;
+    line-height:1.5625rem;
+    color:#999;
+    margin-bottom:.75rem;
+}
+.fdn_realTime_list{
+    padding:0 1.25rem;
+    margin-bottom:1.25rem;
+}
+.fdn_realTime_list dd{
+    width:35%;
+    float: left;
+    font-size:.5625rem;
+    color: #999;
+    text-align:right;
+}
+.fdn_realTime_list dd:first-child{
+    text-align: left;
+    width:25%;
+}
+.fdn_realTime_list dd:last-child{
+    text-align:right;
+    width:40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

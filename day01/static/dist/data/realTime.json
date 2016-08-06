@@ -1,0 +1,84 @@
+[
+    {
+        "fundCode":590006,
+        "fundName":"中邮中小盘",
+        "fundNav": "1.9120",
+        "notTradeTime": false,
+        "currentDate": "1469689080000",
+        "currentNav": "1.9025",
+        "currentRating": "-0.4900",
+        "ordinatesX":[
+            {
+                "title":"09:30"
+            },
+            {
+                "title":"10:30"
+            },
+            {
+                "title":"11:30/13:00"
+            },
+            {
+                "title":"14:00"
+            },
+            {
+                "title": "15:00"
+            }
+        ],
+        "ordinatesY":[
+            {
+                "title":"0.025"
+            },
+            {
+                "title":"0.0125"
+            },
+            {
+                "title":"0.00"
+            },
+            {
+                "title":"-0.0125"
+            },
+            {
+                "title": "-0.025"
+            }
+        ],
+        "profitLines":[
+            {
+                "lineName":"realTime",
+                "lineColor":"#5e94ef",
+                "lineWidth":1,
+                "lineData":[
+                    {
+                        "thenDate":"1466899200000",
+                        "curNetWorth":"1.9126",
+                        "curRate":"0.002"
+                    },
+                    {
+                        "thenDate":"1466899200000",
+                        "curNetWorth":"1.9126",
+                        "curRate":"0.002"
+                    },
+                    {
+                        "thenDate":"1466899200000",
+                        "curNetWorth":"1.9126",
+                        "curRate":"0.002"
+                    },
+                    {
+                        "thenDate":"1466899200000",
+                        "curNetWorth":"1.9126",
+                        "curRate":"0.002"
+                    },
+                    {
+                        "thenDate":"1466899200000",
+                        "curNetWorth":"1.9126",
+                        "curRate":"0.002"
+                    },
+                    {
+                        "thenDate":"1466899200000",
+                        "curNetWorth":"1.9126",
+                        "curRate":"0.002"
+                    }
+                ]
+            }
+        ]
+    }
+]

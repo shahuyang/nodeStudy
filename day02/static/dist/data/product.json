@@ -1,0 +1,69 @@
+{
+    "ebtProAgmContsList": [ ],
+    "ebtProInsu": {
+        "ageLimit": "18",
+        "createTime": 1466611604000,
+        "dayForecloseCount": 3,
+        "dayNoIncome": 10,
+        "hesitationPeriod": "20",
+        "lockPeroid": "10",
+        "proInsuId": 30,
+        "productCode": "code_001",
+        "updateTime": 1466611604000,
+        "yn": 1
+    },
+    "ebtProRuleConditionList": [
+        {
+            "maxOutLimit": 1,
+            "minOutLimit": 1,
+            "minRestLimit": 1,
+            "outComeRate": 1
+        },
+        {
+            "maxOutLimit": 1,
+            "minOutLimit": 1,
+            "minRestLimit": 1,
+            "outComeRate": 1
+        },
+        {
+            "maxOutLimit": 1,
+            "minOutLimit": 1,
+            "minRestLimit": 1,
+            "outComeRate": 1
+        }
+    ],
+    "ebtProduct": {
+        "contBegDate": 1467043200000,
+        "contEndDate": 1467043200000,
+        "createTime": 1466611353000,
+        "firstSellDate": 1466611200000,
+        "forecloseDays": "10",
+        "incomeDays": "10",
+        "incomePayDays": "10",
+        "incomePayType": "01",
+        "incomeRate": 100000,
+        "incomeRateType": "",
+        "incomeType": "01",
+        "initPurchaseAmount": 100000,
+        "isFishTag": "0",
+        "lastSellDate": 1467043200000,
+        "perSellLimitAmount": 10000,
+        "proPeroidType": "01",
+        "productCode": "code_001",
+        "productId": 32,
+        "productName": "产品111111",
+        "productSort": "01",
+        "productType": "01",
+        "providerCode": "01",
+        "providerName": "提供方1",
+        "purchaseSureDays": "t+1",
+        "sellLoopType": "01",
+        "sellTime": "10:10:10",
+        "sellType": "01",
+        "singlePurchaseLimit": 100000,
+        "state": "01",
+        "totalPurchaseLimit": 100000,
+        "updateTime": 1467045422000,
+        "yn": 1
+    }
+}

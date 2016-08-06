@@ -1,0 +1,1266 @@
+{
+    "code": 200,
+    "message": "success",
+    "data": [
+        {
+            "fundCode": "590005",
+            "fundName": "中邮核心主题混合",
+            "fundNav": "1.6720",
+            "notTradeTime": false,
+            "currentDate": "1469775600000",
+            "currentNav": "1.6568",
+            "currentRating": "-0.9100",
+            "ordinatesX": [
+                {
+                    "title": "09:30"
+                },
+                {
+                    "title": "10:30"
+                },
+                {
+                    "title": "11:30/13:00"
+                },
+                {
+                    "title": "14:00"
+                },
+                {
+                    "title": "15:00"
+                }
+            ],
+            "ordinatesY": [
+                {
+                    "title": "1.6905"
+                },
+                {
+                    "title": "1.68125"
+                },
+                {
+                    "title": "1.672"
+                },
+                {
+                    "title": "1.66275"
+                },
+                {
+                    "title": "1.6535"
+                }
+            ],
+            "profitLines": {
+                "lineName": "realTime",
+                "lineColor": "#5e94ef",
+                "lineWidth": 1,
+                "lineData": [
+                    {
+                        "thenDate": "1469755800000",
+                        "curNetWorth": "1.6707",
+                        "curRate": "-0.07"
+                    },
+                    {
+                        "thenDate": "1469755860000",
+                        "curNetWorth": "1.6705",
+                        "curRate": "-0.09"
+                    },
+                    {
+                        "thenDate": "1469755920000",
+                        "curNetWorth": "1.67",
+                        "curRate": "-0.12"
+                    },
+                    {
+                        "thenDate": "1469755980000",
+                        "curNetWorth": "1.67",
+                        "curRate": "-0.12"
+                    },
+                    {
+                        "thenDate": "1469756040000",
+                        "curNetWorth": "1.6714",
+                        "curRate": "-0.03"
+                    },
+                    {
+                        "thenDate": "1469756100000",
+                        "curNetWorth": "1.6734",
+                        "curRate": "0.09"
+                    },
+                    {
+                        "thenDate": "1469756160000",
+                        "curNetWorth": "1.6746",
+                        "curRate": "0.16"
+                    },
+                    {
+                        "thenDate": "1469756220000",
+                        "curNetWorth": "1.6755",
+                        "curRate": "0.21"
+                    },
+                    {
+                        "thenDate": "1469756280000",
+                        "curNetWorth": "1.6758",
+                        "curRate": "0.23"
+                    },
+                    {
+                        "thenDate": "1469756340000",
+                        "curNetWorth": "1.6749",
+                        "curRate": "0.18"
+                    },
+                    {
+                        "thenDate": "1469756400000",
+                        "curNetWorth": "1.6744",
+                        "curRate": "0.15"
+                    },
+                    {
+                        "thenDate": "1469756460000",
+                        "curNetWorth": "1.6753",
+                        "curRate": "0.2"
+                    },
+                    {
+                        "thenDate": "1469756520000",
+                        "curNetWorth": "1.6758",
+                        "curRate": "0.23"
+                    },
+                    {
+                        "thenDate": "1469756580000",
+                        "curNetWorth": "1.6749",
+                        "curRate": "0.18"
+                    },
+                    {
+                        "thenDate": "1469756640000",
+                        "curNetWorth": "1.674",
+                        "curRate": "0.12"
+                    },
+                    {
+                        "thenDate": "1469756700000",
+                        "curNetWorth": "1.6717",
+                        "curRate": "-0.02"
+                    },
+                    {
+                        "thenDate": "1469756760000",
+                        "curNetWorth": "1.6707",
+                        "curRate": "-0.08"
+                    },
+                    {
+                        "thenDate": "1469756820000",
+                        "curNetWorth": "1.6693",
+                        "curRate": "-0.16"
+                    },
+                    {
+                        "thenDate": "1469756880000",
+                        "curNetWorth": "1.6691",
+                        "curRate": "-0.17"
+                    },
+                    {
+                        "thenDate": "1469756940000",
+                        "curNetWorth": "1.6687",
+                        "curRate": "-0.19"
+                    },
+                    {
+                        "thenDate": "1469757000000",
+                        "curNetWorth": "1.6686",
+                        "curRate": "-0.2"
+                    },
+                    {
+                        "thenDate": "1469757060000",
+                        "curNetWorth": "1.6692",
+                        "curRate": "-0.17"
+                    },
+                    {
+                        "thenDate": "1469757120000",
+                        "curNetWorth": "1.6705",
+                        "curRate": "-0.09"
+                    },
+                    {
+                        "thenDate": "1469757180000",
+                        "curNetWorth": "1.6713",
+                        "curRate": "-0.04"
+                    },
+                    {
+                        "thenDate": "1469757240000",
+                        "curNetWorth": "1.6712",
+                        "curRate": "-0.04"
+                    },
+                    {
+                        "thenDate": "1469757300000",
+                        "curNetWorth": "1.6711",
+                        "curRate": "-0.05"
+                    },
+                    {
+                        "thenDate": "1469757360000",
+                        "curNetWorth": "1.6704",
+                        "curRate": "-0.1"
+                    },
+                    {
+                        "thenDate": "1469757420000",
+                        "curNetWorth": "1.6689",
+                        "curRate": "-0.18"
+                    },
+                    {
+                        "thenDate": "1469757480000",
+                        "curNetWorth": "1.6677",
+                        "curRate": "-0.26"
+                    },
+                    {
+                        "thenDate": "1469757540000",
+                        "curNetWorth": "1.6672",
+                        "curRate": "-0.28"
+                    },
+                    {
+                        "thenDate": "1469757600000",
+                        "curNetWorth": "1.6671",
+                        "curRate": "-0.29"
+                    },
+                    {
+                        "thenDate": "1469757660000",
+                        "curNetWorth": "1.6667",
+                        "curRate": "-0.31"
+                    },
+                    {
+                        "thenDate": "1469757720000",
+                        "curNetWorth": "1.666",
+                        "curRate": "-0.36"
+                    },
+                    {
+                        "thenDate": "1469757780000",
+                        "curNetWorth": "1.6639",
+                        "curRate": "-0.48"
+                    },
+                    {
+                        "thenDate": "1469757840000",
+                        "curNetWorth": "1.6616",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469757900000",
+                        "curNetWorth": "1.6595",
+                        "curRate": "-0.74"
+                    },
+                    {
+                        "thenDate": "1469757960000",
+                        "curNetWorth": "1.6596",
+                        "curRate": "-0.74"
+                    },
+                    {
+                        "thenDate": "1469758020000",
+                        "curNetWorth": "1.6615",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469758080000",
+                        "curNetWorth": "1.6629",
+                        "curRate": "-0.54"
+                    },
+                    {
+                        "thenDate": "1469758140000",
+                        "curNetWorth": "1.6636",
+                        "curRate": "-0.5"
+                    },
+                    {
+                        "thenDate": "1469758200000",
+                        "curNetWorth": "1.6634",
+                        "curRate": "-0.51"
+                    },
+                    {
+                        "thenDate": "1469758260000",
+                        "curNetWorth": "1.6631",
+                        "curRate": "-0.53"
+                    },
+                    {
+                        "thenDate": "1469758320000",
+                        "curNetWorth": "1.6627",
+                        "curRate": "-0.55"
+                    },
+                    {
+                        "thenDate": "1469758380000",
+                        "curNetWorth": "1.6637",
+                        "curRate": "-0.5"
+                    },
+                    {
+                        "thenDate": "1469758440000",
+                        "curNetWorth": "1.6655",
+                        "curRate": "-0.39"
+                    },
+                    {
+                        "thenDate": "1469758500000",
+                        "curNetWorth": "1.6676",
+                        "curRate": "-0.26"
+                    },
+                    {
+                        "thenDate": "1469758560000",
+                        "curNetWorth": "1.6678",
+                        "curRate": "-0.25"
+                    },
+                    {
+                        "thenDate": "1469758620000",
+                        "curNetWorth": "1.6673",
+                        "curRate": "-0.28"
+                    },
+                    {
+                        "thenDate": "1469758680000",
+                        "curNetWorth": "1.6669",
+                        "curRate": "-0.3"
+                    },
+                    {
+                        "thenDate": "1469758740000",
+                        "curNetWorth": "1.6666",
+                        "curRate": "-0.32"
+                    },
+                    {
+                        "thenDate": "1469758800000",
+                        "curNetWorth": "1.6663",
+                        "curRate": "-0.34"
+                    },
+                    {
+                        "thenDate": "1469758860000",
+                        "curNetWorth": "1.6662",
+                        "curRate": "-0.34"
+                    },
+                    {
+                        "thenDate": "1469758920000",
+                        "curNetWorth": "1.6659",
+                        "curRate": "-0.36"
+                    },
+                    {
+                        "thenDate": "1469758980000",
+                        "curNetWorth": "1.6653",
+                        "curRate": "-0.4"
+                    },
+                    {
+                        "thenDate": "1469759040000",
+                        "curNetWorth": "1.6658",
+                        "curRate": "-0.37"
+                    },
+                    {
+                        "thenDate": "1469759100000",
+                        "curNetWorth": "1.6661",
+                        "curRate": "-0.35"
+                    },
+                    {
+                        "thenDate": "1469759160000",
+                        "curNetWorth": "1.6661",
+                        "curRate": "-0.35"
+                    },
+                    {
+                        "thenDate": "1469759220000",
+                        "curNetWorth": "1.666",
+                        "curRate": "-0.35"
+                    },
+                    {
+                        "thenDate": "1469759280000",
+                        "curNetWorth": "1.6656",
+                        "curRate": "-0.38"
+                    },
+                    {
+                        "thenDate": "1469759340000",
+                        "curNetWorth": "1.664",
+                        "curRate": "-0.47"
+                    },
+                    {
+                        "thenDate": "1469759400000",
+                        "curNetWorth": "1.6626",
+                        "curRate": "-0.56"
+                    },
+                    {
+                        "thenDate": "1469759460000",
+                        "curNetWorth": "1.6615",
+                        "curRate": "-0.63"
+                    },
+                    {
+                        "thenDate": "1469759520000",
+                        "curNetWorth": "1.6617",
+                        "curRate": "-0.61"
+                    },
+                    {
+                        "thenDate": "1469759580000",
+                        "curNetWorth": "1.6623",
+                        "curRate": "-0.58"
+                    },
+                    {
+                        "thenDate": "1469759640000",
+                        "curNetWorth": "1.6626",
+                        "curRate": "-0.56"
+                    },
+                    {
+                        "thenDate": "1469759700000",
+                        "curNetWorth": "1.663",
+                        "curRate": "-0.54"
+                    },
+                    {
+                        "thenDate": "1469759760000",
+                        "curNetWorth": "1.6632",
+                        "curRate": "-0.52"
+                    },
+                    {
+                        "thenDate": "1469759820000",
+                        "curNetWorth": "1.6633",
+                        "curRate": "-0.52"
+                    },
+                    {
+                        "thenDate": "1469759880000",
+                        "curNetWorth": "1.6635",
+                        "curRate": "-0.51"
+                    },
+                    {
+                        "thenDate": "1469759940000",
+                        "curNetWorth": "1.6638",
+                        "curRate": "-0.49"
+                    },
+                    {
+                        "thenDate": "1469760000000",
+                        "curNetWorth": "1.6634",
+                        "curRate": "-0.51"
+                    },
+                    {
+                        "thenDate": "1469760060000",
+                        "curNetWorth": "1.6622",
+                        "curRate": "-0.58"
+                    },
+                    {
+                        "thenDate": "1469760120000",
+                        "curNetWorth": "1.6614",
+                        "curRate": "-0.63"
+                    },
+                    {
+                        "thenDate": "1469760180000",
+                        "curNetWorth": "1.6609",
+                        "curRate": "-0.66"
+                    },
+                    {
+                        "thenDate": "1469760240000",
+                        "curNetWorth": "1.6604",
+                        "curRate": "-0.69"
+                    },
+                    {
+                        "thenDate": "1469760300000",
+                        "curNetWorth": "1.6603",
+                        "curRate": "-0.7"
+                    },
+                    {
+                        "thenDate": "1469760360000",
+                        "curNetWorth": "1.6605",
+                        "curRate": "-0.69"
+                    },
+                    {
+                        "thenDate": "1469760420000",
+                        "curNetWorth": "1.6609",
+                        "curRate": "-0.66"
+                    },
+                    {
+                        "thenDate": "1469760480000",
+                        "curNetWorth": "1.6612",
+                        "curRate": "-0.64"
+                    },
+                    {
+                        "thenDate": "1469760540000",
+                        "curNetWorth": "1.6615",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469760600000",
+                        "curNetWorth": "1.6614",
+                        "curRate": "-0.63"
+                    },
+                    {
+                        "thenDate": "1469760660000",
+                        "curNetWorth": "1.6599",
+                        "curRate": "-0.72"
+                    },
+                    {
+                        "thenDate": "1469760720000",
+                        "curNetWorth": "1.6562",
+                        "curRate": "-0.94"
+                    },
+                    {
+                        "thenDate": "1469760780000",
+                        "curNetWorth": "1.6536",
+                        "curRate": "-1.1"
+                    },
+                    {
+                        "thenDate": "1469760840000",
+                        "curNetWorth": "1.6535",
+                        "curRate": "-1.11"
+                    },
+                    {
+                        "thenDate": "1469760900000",
+                        "curNetWorth": "1.6548",
+                        "curRate": "-1.03"
+                    },
+                    {
+                        "thenDate": "1469760960000",
+                        "curNetWorth": "1.6568",
+                        "curRate": "-0.9"
+                    },
+                    {
+                        "thenDate": "1469761020000",
+                        "curNetWorth": "1.6574",
+                        "curRate": "-0.87"
+                    },
+                    {
+                        "thenDate": "1469761080000",
+                        "curNetWorth": "1.6576",
+                        "curRate": "-0.86"
+                    },
+                    {
+                        "thenDate": "1469761140000",
+                        "curNetWorth": "1.6574",
+                        "curRate": "-0.87"
+                    },
+                    {
+                        "thenDate": "1469761200000",
+                        "curNetWorth": "1.657",
+                        "curRate": "-0.89"
+                    },
+                    {
+                        "thenDate": "1469761260000",
+                        "curNetWorth": "1.6574",
+                        "curRate": "-0.87"
+                    },
+                    {
+                        "thenDate": "1469761320000",
+                        "curNetWorth": "1.6582",
+                        "curRate": "-0.82"
+                    },
+                    {
+                        "thenDate": "1469761380000",
+                        "curNetWorth": "1.6593",
+                        "curRate": "-0.76"
+                    },
+                    {
+                        "thenDate": "1469761440000",
+                        "curNetWorth": "1.6601",
+                        "curRate": "-0.71"
+                    },
+                    {
+                        "thenDate": "1469761500000",
+                        "curNetWorth": "1.66",
+                        "curRate": "-0.72"
+                    },
+                    {
+                        "thenDate": "1469761560000",
+                        "curNetWorth": "1.6593",
+                        "curRate": "-0.76"
+                    },
+                    {
+                        "thenDate": "1469761620000",
+                        "curNetWorth": "1.6592",
+                        "curRate": "-0.76"
+                    },
+                    {
+                        "thenDate": "1469761680000",
+                        "curNetWorth": "1.6593",
+                        "curRate": "-0.76"
+                    },
+                    {
+                        "thenDate": "1469761740000",
+                        "curNetWorth": "1.6606",
+                        "curRate": "-0.68"
+                    },
+                    {
+                        "thenDate": "1469761800000",
+                        "curNetWorth": "1.6612",
+                        "curRate": "-0.64"
+                    },
+                    {
+                        "thenDate": "1469761860000",
+                        "curNetWorth": "1.6616",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469761920000",
+                        "curNetWorth": "1.6617",
+                        "curRate": "-0.61"
+                    },
+                    {
+                        "thenDate": "1469761980000",
+                        "curNetWorth": "1.6616",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469762040000",
+                        "curNetWorth": "1.6614",
+                        "curRate": "-0.63"
+                    },
+                    {
+                        "thenDate": "1469762100000",
+                        "curNetWorth": "1.6613",
+                        "curRate": "-0.64"
+                    },
+                    {
+                        "thenDate": "1469762160000",
+                        "curNetWorth": "1.6616",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469762220000",
+                        "curNetWorth": "1.6619",
+                        "curRate": "-0.6"
+                    },
+                    {
+                        "thenDate": "1469762280000",
+                        "curNetWorth": "1.6614",
+                        "curRate": "-0.63"
+                    },
+                    {
+                        "thenDate": "1469762340000",
+                        "curNetWorth": "1.6627",
+                        "curRate": "-0.55"
+                    },
+                    {
+                        "thenDate": "1469762400000",
+                        "curNetWorth": "1.6647",
+                        "curRate": "-0.43"
+                    },
+                    {
+                        "thenDate": "1469762460000",
+                        "curNetWorth": "1.6665",
+                        "curRate": "-0.33"
+                    },
+                    {
+                        "thenDate": "1469762520000",
+                        "curNetWorth": "1.6672",
+                        "curRate": "-0.29"
+                    },
+                    {
+                        "thenDate": "1469762580000",
+                        "curNetWorth": "1.6672",
+                        "curRate": "-0.28"
+                    },
+                    {
+                        "thenDate": "1469762640000",
+                        "curNetWorth": "1.6672",
+                        "curRate": "-0.29"
+                    },
+                    {
+                        "thenDate": "1469762700000",
+                        "curNetWorth": "1.6668",
+                        "curRate": "-0.31"
+                    },
+                    {
+                        "thenDate": "1469762760000",
+                        "curNetWorth": "1.6665",
+                        "curRate": "-0.33"
+                    },
+                    {
+                        "thenDate": "1469762820000",
+                        "curNetWorth": "1.6666",
+                        "curRate": "-0.32"
+                    },
+                    {
+                        "thenDate": "1469762880000",
+                        "curNetWorth": "1.6665",
+                        "curRate": "-0.33"
+                    },
+                    {
+                        "thenDate": "1469762940000",
+                        "curNetWorth": "1.6671",
+                        "curRate": "-0.29"
+                    },
+                    {
+                        "thenDate": "1469763000000",
+                        "curNetWorth": "1.667",
+                        "curRate": "-0.3"
+                    },
+                    {
+                        "thenDate": "1469768400000",
+                        "curNetWorth": "1.6676",
+                        "curRate": "-0.26"
+                    },
+                    {
+                        "thenDate": "1469768460000",
+                        "curNetWorth": "1.6674",
+                        "curRate": "-0.27"
+                    },
+                    {
+                        "thenDate": "1469768520000",
+                        "curNetWorth": "1.6667",
+                        "curRate": "-0.31"
+                    },
+                    {
+                        "thenDate": "1469768580000",
+                        "curNetWorth": "1.6665",
+                        "curRate": "-0.33"
+                    },
+                    {
+                        "thenDate": "1469768640000",
+                        "curNetWorth": "1.6664",
+                        "curRate": "-0.33"
+                    },
+                    {
+                        "thenDate": "1469768700000",
+                        "curNetWorth": "1.6662",
+                        "curRate": "-0.35"
+                    },
+                    {
+                        "thenDate": "1469768760000",
+                        "curNetWorth": "1.6666",
+                        "curRate": "-0.32"
+                    },
+                    {
+                        "thenDate": "1469768820000",
+                        "curNetWorth": "1.667",
+                        "curRate": "-0.29"
+                    },
+                    {
+                        "thenDate": "1469768880000",
+                        "curNetWorth": "1.6675",
+                        "curRate": "-0.27"
+                    },
+                    {
+                        "thenDate": "1469768940000",
+                        "curNetWorth": "1.6679",
+                        "curRate": "-0.24"
+                    },
+                    {
+                        "thenDate": "1469769000000",
+                        "curNetWorth": "1.6682",
+                        "curRate": "-0.23"
+                    },
+                    {
+                        "thenDate": "1469769060000",
+                        "curNetWorth": "1.6679",
+                        "curRate": "-0.24"
+                    },
+                    {
+                        "thenDate": "1469769120000",
+                        "curNetWorth": "1.6676",
+                        "curRate": "-0.26"
+                    },
+                    {
+                        "thenDate": "1469769180000",
+                        "curNetWorth": "1.6676",
+                        "curRate": "-0.26"
+                    },
+                    {
+                        "thenDate": "1469769240000",
+                        "curNetWorth": "1.6676",
+                        "curRate": "-0.26"
+                    },
+                    {
+                        "thenDate": "1469769300000",
+                        "curNetWorth": "1.6674",
+                        "curRate": "-0.27"
+                    },
+                    {
+                        "thenDate": "1469769360000",
+                        "curNetWorth": "1.6672",
+                        "curRate": "-0.28"
+                    },
+                    {
+                        "thenDate": "1469769420000",
+                        "curNetWorth": "1.6668",
+                        "curRate": "-0.31"
+                    },
+                    {
+                        "thenDate": "1469769480000",
+                        "curNetWorth": "1.6662",
+                        "curRate": "-0.34"
+                    },
+                    {
+                        "thenDate": "1469769540000",
+                        "curNetWorth": "1.6658",
+                        "curRate": "-0.37"
+                    },
+                    {
+                        "thenDate": "1469769600000",
+                        "curNetWorth": "1.6655",
+                        "curRate": "-0.38"
+                    },
+                    {
+                        "thenDate": "1469769660000",
+                        "curNetWorth": "1.6653",
+                        "curRate": "-0.4"
+                    },
+                    {
+                        "thenDate": "1469769720000",
+                        "curNetWorth": "1.6652",
+                        "curRate": "-0.4"
+                    },
+                    {
+                        "thenDate": "1469769780000",
+                        "curNetWorth": "1.6656",
+                        "curRate": "-0.38"
+                    },
+                    {
+                        "thenDate": "1469769840000",
+                        "curNetWorth": "1.6656",
+                        "curRate": "-0.38"
+                    },
+                    {
+                        "thenDate": "1469769900000",
+                        "curNetWorth": "1.6658",
+                        "curRate": "-0.37"
+                    },
+                    {
+                        "thenDate": "1469769960000",
+                        "curNetWorth": "1.666",
+                        "curRate": "-0.36"
+                    },
+                    {
+                        "thenDate": "1469770020000",
+                        "curNetWorth": "1.6668",
+                        "curRate": "-0.31"
+                    },
+                    {
+                        "thenDate": "1469770080000",
+                        "curNetWorth": "1.6674",
+                        "curRate": "-0.27"
+                    },
+                    {
+                        "thenDate": "1469770140000",
+                        "curNetWorth": "1.6673",
+                        "curRate": "-0.28"
+                    },
+                    {
+                        "thenDate": "1469770200000",
+                        "curNetWorth": "1.6669",
+                        "curRate": "-0.3"
+                    },
+                    {
+                        "thenDate": "1469770260000",
+                        "curNetWorth": "1.6664",
+                        "curRate": "-0.33"
+                    },
+                    {
+                        "thenDate": "1469770320000",
+                        "curNetWorth": "1.6666",
+                        "curRate": "-0.32"
+                    },
+                    {
+                        "thenDate": "1469770380000",
+                        "curNetWorth": "1.6668",
+                        "curRate": "-0.31"
+                    },
+                    {
+                        "thenDate": "1469770440000",
+                        "curNetWorth": "1.667",
+                        "curRate": "-0.3"
+                    },
+                    {
+                        "thenDate": "1469770500000",
+                        "curNetWorth": "1.6656",
+                        "curRate": "-0.38"
+                    },
+                    {
+                        "thenDate": "1469770560000",
+                        "curNetWorth": "1.6641",
+                        "curRate": "-0.47"
+                    },
+                    {
+                        "thenDate": "1469770620000",
+                        "curNetWorth": "1.6632",
+                        "curRate": "-0.52"
+                    },
+                    {
+                        "thenDate": "1469770680000",
+                        "curNetWorth": "1.663",
+                        "curRate": "-0.54"
+                    },
+                    {
+                        "thenDate": "1469770740000",
+                        "curNetWorth": "1.6634",
+                        "curRate": "-0.51"
+                    },
+                    {
+                        "thenDate": "1469770800000",
+                        "curNetWorth": "1.6639",
+                        "curRate": "-0.48"
+                    },
+                    {
+                        "thenDate": "1469770860000",
+                        "curNetWorth": "1.6643",
+                        "curRate": "-0.46"
+                    },
+                    {
+                        "thenDate": "1469770920000",
+                        "curNetWorth": "1.6645",
+                        "curRate": "-0.45"
+                    },
+                    {
+                        "thenDate": "1469770980000",
+                        "curNetWorth": "1.6643",
+                        "curRate": "-0.46"
+                    },
+                    {
+                        "thenDate": "1469771040000",
+                        "curNetWorth": "1.6643",
+                        "curRate": "-0.46"
+                    },
+                    {
+                        "thenDate": "1469771100000",
+                        "curNetWorth": "1.664",
+                        "curRate": "-0.48"
+                    },
+                    {
+                        "thenDate": "1469771160000",
+                        "curNetWorth": "1.6635",
+                        "curRate": "-0.51"
+                    },
+                    {
+                        "thenDate": "1469771220000",
+                        "curNetWorth": "1.6634",
+                        "curRate": "-0.51"
+                    },
+                    {
+                        "thenDate": "1469771280000",
+                        "curNetWorth": "1.6639",
+                        "curRate": "-0.48"
+                    },
+                    {
+                        "thenDate": "1469771340000",
+                        "curNetWorth": "1.6648",
+                        "curRate": "-0.43"
+                    },
+                    {
+                        "thenDate": "1469771400000",
+                        "curNetWorth": "1.6658",
+                        "curRate": "-0.37"
+                    },
+                    {
+                        "thenDate": "1469771460000",
+                        "curNetWorth": "1.6664",
+                        "curRate": "-0.33"
+                    },
+                    {
+                        "thenDate": "1469771520000",
+                        "curNetWorth": "1.6666",
+                        "curRate": "-0.32"
+                    },
+                    {
+                        "thenDate": "1469771580000",
+                        "curNetWorth": "1.6666",
+                        "curRate": "-0.32"
+                    },
+                    {
+                        "thenDate": "1469771640000",
+                        "curNetWorth": "1.6668",
+                        "curRate": "-0.31"
+                    },
+                    {
+                        "thenDate": "1469771700000",
+                        "curNetWorth": "1.6669",
+                        "curRate": "-0.3"
+                    },
+                    {
+                        "thenDate": "1469771760000",
+                        "curNetWorth": "1.6672",
+                        "curRate": "-0.28"
+                    },
+                    {
+                        "thenDate": "1469771820000",
+                        "curNetWorth": "1.6673",
+                        "curRate": "-0.28"
+                    },
+                    {
+                        "thenDate": "1469771880000",
+                        "curNetWorth": "1.6673",
+                        "curRate": "-0.28"
+                    },
+                    {
+                        "thenDate": "1469771940000",
+                        "curNetWorth": "1.6676",
+                        "curRate": "-0.26"
+                    },
+                    {
+                        "thenDate": "1469772000000",
+                        "curNetWorth": "1.6678",
+                        "curRate": "-0.25"
+                    },
+                    {
+                        "thenDate": "1469772060000",
+                        "curNetWorth": "1.6676",
+                        "curRate": "-0.26"
+                    },
+                    {
+                        "thenDate": "1469772120000",
+                        "curNetWorth": "1.667",
+                        "curRate": "-0.29"
+                    },
+                    {
+                        "thenDate": "1469772180000",
+                        "curNetWorth": "1.6665",
+                        "curRate": "-0.33"
+                    },
+                    {
+                        "thenDate": "1469772240000",
+                        "curNetWorth": "1.6662",
+                        "curRate": "-0.34"
+                    },
+                    {
+                        "thenDate": "1469772300000",
+                        "curNetWorth": "1.6659",
+                        "curRate": "-0.36"
+                    },
+                    {
+                        "thenDate": "1469772360000",
+                        "curNetWorth": "1.6658",
+                        "curRate": "-0.37"
+                    },
+                    {
+                        "thenDate": "1469772420000",
+                        "curNetWorth": "1.6658",
+                        "curRate": "-0.37"
+                    },
+                    {
+                        "thenDate": "1469772480000",
+                        "curNetWorth": "1.6658",
+                        "curRate": "-0.37"
+                    },
+                    {
+                        "thenDate": "1469772540000",
+                        "curNetWorth": "1.6654",
+                        "curRate": "-0.39"
+                    },
+                    {
+                        "thenDate": "1469772600000",
+                        "curNetWorth": "1.6643",
+                        "curRate": "-0.46"
+                    },
+                    {
+                        "thenDate": "1469772660000",
+                        "curNetWorth": "1.6616",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469772720000",
+                        "curNetWorth": "1.6597",
+                        "curRate": "-0.73"
+                    },
+                    {
+                        "thenDate": "1469772780000",
+                        "curNetWorth": "1.6601",
+                        "curRate": "-0.71"
+                    },
+                    {
+                        "thenDate": "1469772840000",
+                        "curNetWorth": "1.6612",
+                        "curRate": "-0.64"
+                    },
+                    {
+                        "thenDate": "1469772900000",
+                        "curNetWorth": "1.6619",
+                        "curRate": "-0.6"
+                    },
+                    {
+                        "thenDate": "1469772960000",
+                        "curNetWorth": "1.6623",
+                        "curRate": "-0.58"
+                    },
+                    {
+                        "thenDate": "1469773020000",
+                        "curNetWorth": "1.6624",
+                        "curRate": "-0.57"
+                    },
+                    {
+                        "thenDate": "1469773080000",
+                        "curNetWorth": "1.6622",
+                        "curRate": "-0.58"
+                    },
+                    {
+                        "thenDate": "1469773140000",
+                        "curNetWorth": "1.6621",
+                        "curRate": "-0.59"
+                    },
+                    {
+                        "thenDate": "1469773200000",
+                        "curNetWorth": "1.6616",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469773260000",
+                        "curNetWorth": "1.6616",
+                        "curRate": "-0.62"
+                    },
+                    {
+                        "thenDate": "1469773320000",
+                        "curNetWorth": "1.6623",
+                        "curRate": "-0.58"
+                    },
+                    {
+                        "thenDate": "1469773380000",
+                        "curNetWorth": "1.6626",
+                        "curRate": "-0.56"
+                    },
+                    {
+                        "thenDate": "1469773440000",
+                        "curNetWorth": "1.6627",
+                        "curRate": "-0.55"
+                    },
+                    {
+                        "thenDate": "1469773500000",
+                        "curNetWorth": "1.6624",
+                        "curRate": "-0.57"
+                    },
+                    {
+                        "thenDate": "1469773560000",
+                        "curNetWorth": "1.6622",
+                        "curRate": "-0.58"
+                    },
+                    {
+                        "thenDate": "1469773620000",
+                        "curNetWorth": "1.6617",
+                        "curRate": "-0.61"
+                    },
+                    {
+                        "thenDate": "1469773680000",
+                        "curNetWorth": "1.6605",
+                        "curRate": "-0.68"
+                    },
+                    {
+                        "thenDate": "1469773740000",
+                        "curNetWorth": "1.6589",
+                        "curRate": "-0.78"
+                    },
+                    {
+                        "thenDate": "1469773800000",
+                        "curNetWorth": "1.6552",
+                        "curRate": "-1.0"
+                    },
+                    {
+                        "thenDate": "1469773860000",
+                        "curNetWorth": "1.6536",
+                        "curRate": "-1.1"
+                    },
+                    {
+                        "thenDate": "1469773920000",
+                        "curNetWorth": "1.6548",
+                        "curRate": "-1.02"
+                    },
+                    {
+                        "thenDate": "1469773980000",
+                        "curNetWorth": "1.6566",
+                        "curRate": "-0.92"
+                    },
+                    {
+                        "thenDate": "1469774040000",
+                        "curNetWorth": "1.658",
+                        "curRate": "-0.83"
+                    },
+                    {
+                        "thenDate": "1469774100000",
+                        "curNetWorth": "1.6577",
+                        "curRate": "-0.85"
+                    },
+                    {
+                        "thenDate": "1469774160000",
+                        "curNetWorth": "1.6577",
+                        "curRate": "-0.85"
+                    },
+                    {
+                        "thenDate": "1469774220000",
+                        "curNetWorth": "1.6586",
+                        "curRate": "-0.8"
+                    },
+                    {
+                        "thenDate": "1469774280000",
+                        "curNetWorth": "1.6598",
+                        "curRate": "-0.72"
+                    },
+                    {
+                        "thenDate": "1469774340000",
+                        "curNetWorth": "1.6605",
+                        "curRate": "-0.68"
+                    },
+                    {
+                        "thenDate": "1469774400000",
+                        "curNetWorth": "1.6606",
+                        "curRate": "-0.68"
+                    },
+                    {
+                        "thenDate": "1469774460000",
+                        "curNetWorth": "1.6606",
+                        "curRate": "-0.68"
+                    },
+                    {
+                        "thenDate": "1469774520000",
+                        "curNetWorth": "1.66",
+                        "curRate": "-0.72"
+                    },
+                    {
+                        "thenDate": "1469774580000",
+                        "curNetWorth": "1.6599",
+                        "curRate": "-0.72"
+                    },
+                    {
+                        "thenDate": "1469774640000",
+                        "curNetWorth": "1.6596",
+                        "curRate": "-0.74"
+                    },
+                    {
+                        "thenDate": "1469774700000",
+                        "curNetWorth": "1.6593",
+                        "curRate": "-0.76"
+                    },
+                    {
+                        "thenDate": "1469774760000",
+                        "curNetWorth": "1.6595",
+                        "curRate": "-0.74"
+                    },
+                    {
+                        "thenDate": "1469774820000",
+                        "curNetWorth": "1.6595",
+                        "curRate": "-0.75"
+                    },
+                    {
+                        "thenDate": "1469774880000",
+                        "curNetWorth": "1.6598",
+                        "curRate": "-0.73"
+                    },
+                    {
+                        "thenDate": "1469774940000",
+                        "curNetWorth": "1.6602",
+                        "curRate": "-0.71"
+                    },
+                    {
+                        "thenDate": "1469775000000",
+                        "curNetWorth": "1.6599",
+                        "curRate": "-0.72"
+                    },
+                    {
+                        "thenDate": "1469775060000",
+                        "curNetWorth": "1.6599",
+                        "curRate": "-0.72"
+                    },
+                    {
+                        "thenDate": "1469775120000",
+                        "curNetWorth": "1.6595",
+                        "curRate": "-0.75"
+                    },
+                    {
+                        "thenDate": "1469775180000",
+                        "curNetWorth": "1.6587",
+                        "curRate": "-0.79"
+                    },
+                    {
+                        "thenDate": "1469775240000",
+                        "curNetWorth": "1.6576",
+                        "curRate": "-0.86"
+                    },
+                    {
+                        "thenDate": "1469775300000",
+                        "curNetWorth": "1.657",
+                        "curRate": "-0.9"
+                    },
+                    {
+                        "thenDate": "1469775360000",
+                        "curNetWorth": "1.6567",
+                        "curRate": "-0.91"
+                    },
+                    {
+                        "thenDate": "1469775420000",
+                        "curNetWorth": "1.6568",
+                        "curRate": "-0.91"
+                    },
+                    {
+                        "thenDate": "1469775480000",
+                        "curNetWorth": "1.657",
+                        "curRate": "-0.89"
+                    },
+                    {
+                        "thenDate": "1469775540000",
+                        "curNetWorth": "1.657",
+                        "curRate": "-0.89"
+                    },
+                    {
+                        "thenDate": "1469775600000",
+                        "curNetWorth": "1.6568",
+                        "curRate": "-0.91"
+                    }
+                ]
+            }
+        }
+    ]
+}

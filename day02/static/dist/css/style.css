@@ -1,0 +1,1327 @@
+@charset "utf-8";
+/*****注册服务协议*****/
+/*version 07221400*/
+.agreement_wrap dl{
+    width:100%;
+    border-top:1px solid #d7d7d7;
+    padding:0 1.25rem;
+    padding-bottom:1.5rem;
+}
+.agreement_wrap dt h2{
+    font-size:.9375rem;
+    line-height:3.125rem;
+    font-weight: bold;
+}
+.agreement_wrap dd h5{
+    font-size:.8125rem;
+    line-height:3.375rem;
+    font-weight: bold;
+}
+.agreement_wrap p,.agreement_wrap li{
+    font-size:.6875rem;
+    line-height:1.125rem;
+}
+.agreement_wrap p strong,.agreement_wrap li strong{
+    text-decoration:underline;
+}
+.agreement_wrap ul>li{
+    padding-left:.3rem;
+}
+.agreement_wrap ol{
+    padding-left:1.8rem;
+}
+/******风险测评******/
+.evaluating_header{
+    background:#efeff4;
+    padding:0 1.25rem;
+    padding-bottom:1.125rem;
+}
+.evaluating_header h2{
+    font-size:.8125rem;
+    line-height:3.125rem;
+    text-align: center;
+}
+.evaluating_header h2 b{
+     font-size:.9375rem;
+ }
+.evaluating_header p{
+    font-size:.8125rem;
+    line-height: 1.125rem;
+}
+/*评测内容*/
+.evaluating_content{
+    padding-bottom:3.25rem;
+}
+.evaluating_content dl{
+    padding:0 1.25rem;
+    border-bottom:10px solid #efeff4;
+}
+.evaluating_content dt{
+    max-height:6.25rem;
+    position: relative;
+}
+.evaluating_content dl.cur dt span{
+    background:#5e94ef;
+}
+.evaluating_content dt span{
+    display: inline-block;
+    width:1.125rem;
+    text-align: center;
+    height:1.125rem;
+    line-height:1.125rem;
+    border-radius:100%;
+    background:#dadada;
+    font-size:.8125rem;
+    color:#fff;
+    position: absolute;
+    left:.2rem;
+    top:.2rem ;
+    /*margin-left:.3125rem;*/
+    /*margin-right:.625rem;*/
+}
+.evaluating_content dt p{
+    margin:.7625rem 0;
+    line-height:1.6rem;
+    /*margin-left:2.0625rem;*/
+    text-indent:2rem;
+}
+.evaluating_content dd{
+    border-top:1px solid #eee;
+    max-height:6.25rem;
+}
+.evaluating_content dd{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    position: relative;
+}
+.evaluating_content dd:before{
+    clear: both;
+    content:' ';
+    display:table;
+}
+.evaluating_content dd:after{
+    clear: both;
+    content:' ';
+    display:table;
+}
+.evaluating_content dd p{
+    font-size:.8125rem;
+    /*line-height:3.125rem;*/
+    line-height:1.5rem;
+    padding:.8125rem 0;
+    float:left;
+    width:92%;
+}
+.evaluating_content dd.cur p{
+    color:#5e94ef;
+}
+.evaluating_content dd.cur img{
+    display: block;
+}
+.evaluating_content dd img{
+    width:1.375rem;
+    height:1.375rem;
+    margin-top:.875rem;
+    float: right;
+    display:none;
+    /*position: absolute;*/
+    /*right:0;*/
+    /*bottom:.875rem;*/
+}
+/*提交按钮*/
+.ra_btn_submit{
+    display:block;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    height:3.125rem;
+    line-height:3.125rem;
+    background:#5e94ef;
+    font-size:1.125rem;
+    color:#fff;
+}
+/******评测结果******/
+.result_assessment h5{
+    font-size:.9375rem;
+    text-align: center;
+    line-height:2rem;
+    margin-top:2.25rem;
+}
+.result_assessment h2{
+    font-size:2.75rem;
+    line-height:5.625rem;
+    text-align: center;
+}
+.result_assessment p{
+    font-size:.8125rem;
+    line-height:1.75rem;
+    text-align: center;
+}
+.result_assessment p img{
+    display: inline-block;
+    width:1.375rem;
+    height:1.375rem;
+    vertical-align: middle;
+
+}
+.result_assessment p i{
+    color:#2cbf97;
+}
+.ar_main_btn{
+    height:3.125rem;
+    line-height:3.125rem;
+    font-size:1.125rem;
+    margin-top:2.5rem;
+    border-radius:0.25rem;
+}
+.ar_btn_wrap{
+    padding:0 1.25rem;
+}
+.ar_sub_btn{
+    display:none;
+    text-align: center;
+    margin-top:3.125rem;
+}
+/******基金详情-非货币******/
+.fd_fdl_title{
+    background:#efefef;
+    padding:1.125rem 1.25rem;
+}
+.fd_fdl_title p{
+    font-size:.75rem;
+    line-height:1.125rem;
+}
+/*基金数据*/
+.fd_fund_title{
+    background-color:#efefef;
+    padding-top:.875rem;
+    padding-bottom:1.125rem;
+}
+.fd_fund_title p{
+    font-size:.75rem;
+    line-height:1.125rem;
+}
+.fd_info_wrap {
+    width:100%;
+    overflow:auto;
+}
+.fd_info{
+    width:111%;
+    padding-top:1.4375rem;
+    padding-bottom:1.25rem;
+}
+.fdc_info{
+    width:145%;
+}
+.fd_info li{
+    width:20%;
+}
+.fd_info li span.red{
+    color: #333;
+    padding-left:.65rem;
+    background-image:url("../images/arrow_up_red.png");
+    background-repeat:no-repeat;
+    background-position:0 .72rem;
+    background-size:.5625rem;
+}
+.fd_info li span.green{
+    color: #333;
+    padding-left:.65rem;
+    background-image:url("../images/arrow_down_green.png");
+    background-repeat:no-repeat;
+    background-position:0 .72rem;
+    background-size:.5625rem;
+}
+
+
+/*Iphone5以下适配*/
+/*@media screen and (min-width: 320px) {*/
+    /*.fd_info{*/
+        /*width:110%;*/
+    /*}*/
+/*}*/
+/*基金媒体查询*/
+@media screen and (min-width: 430px) {
+    .fd_info{
+        width:100%;
+    }
+    .fd_info li{
+        /*width:20%;*/
+        width:20%;
+    }
+    /*.fd_info li.fd_cur_netWorth{*/
+        /*width:5.625rem;*/
+    /*}*/
+}
+.fd_info li p{
+    width:100%;
+    font-size:1.3125rem;
+    line-height:2.6rem;
+    height:2.6rem;
+    text-align: center;
+}
+.fd_info li p i{
+    font-size:1rem;
+
+}
+.fd_info li p img{
+    vertical-align: middle;
+    width:.5625rem;
+    height:.5625rem;
+    /*display:inline-block;*/
+}
+.fd_info li:last-child span.level_h{
+    display: block;
+    width:3.1875rem;
+    height:1.59375rem;
+    margin:.1rem auto .8750rem auto;
+    background-image:url("../images/fd_riskLevel.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.fd_info li:last-child span.level_l{
+    display: block;
+    width:3.1875rem;
+    height:1.59375rem;
+    margin:.1rem auto .8750rem auto;
+    background-image:url("../images/fdc_riskLevel.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+
+.fd_info li h6{
+    width:100%;
+    text-align: center;
+    line-height:1.25rem;
+    height:1.25rem;
+}
+.buy_rate p s{
+    font-size:.5625rem;
+    line-height:.5625rem;
+    color:#999;
+    bottom:0;
+    left:50%;
+    margin-left:-.7rem;
+    position:absolute;
+}
+.fd_cur_netWorth p span.pa{
+    font-size:.5625rem;
+    line-height:.5625rem;
+    color:#999;
+    bottom:0;
+    left:50%;
+    margin-left:-.7rem;
+}
+.buy_rate p span{
+    position: absolute;
+    display: block;
+    width:2.5rem;
+    height:1.16rem;
+    line-height:1.16rem;
+    text-align: center;
+    font-size:.4375rem;
+    color:#fff;
+    top:-.625rem;
+    left:50%;
+    background-image:url("../images/fd_sale.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+/* 折线图，图表*/
+.fd_chart_wrap{
+    border-bottom:12px solid #efeff4;
+}
+.fd_chart_wrap .fdc_tab_body{
+    margin-top:1rem;
+}
+.fdc_tab_body .fd_chart_list:last-child{
+    /*height:17.25rem;*/
+}
+/*******货币基金图例*******/
+.fdc_legend{
+    font-size:.5625rem;
+    line-height:1.5625rem;
+    text-align: right;
+    padding-right:.625rem;
+    height:2rem;
+}
+.fdc_legend i{
+    width:.375rem;
+    height:.375rem;
+    border-radius:50%;
+    background-color:#5e94ef;
+    margin-right:.2rem;
+    display: inline-block;
+}
+/**************/
+.fd_tab_title li{
+    font-size: .9375rem;
+    width:100%;
+    text-align: center;
+    line-height:2.5625rem;
+    height:2.5625rem;
+    border-top:1px solid #efefef;
+}
+/*净值走势*/
+.netWorth_tab_inner{
+    width:100%;
+    padding:0 1.25rem;
+}
+.fd_netWorth_tab{
+    width:100%;
+    height:1.5625rem;
+    border-radius:.1875rem;
+    border:1px solid #eee;
+    margin:0rem auto .75rem auto;
+}
+.fd_netWorth_tab dd{
+    width:20%;
+    line-height:1.5625rem;
+    text-align: center;
+    font-size:.625rem;
+    color:#999;
+    border-right:1px solid #eee;
+    float:left;
+}
+/*货币基金*/
+.fdc_netWorth_tab{
+    width:17.5rem;
+}
+.fdc_netWorth_tab dd{
+    width:25%;
+}
+.fd_netWorth_tab dd:last-child{
+    border-right:0 none;
+ }
+.fd_netWorth_tab dd.cur{
+    background:#e4ebfa;
+    color:#555;
+}
+.fd_netWorth_list{
+    margin-bottom:1.25rem;
+}
+.fd_netWorth_list dd{
+    width:50%;
+    font-size:.5625rem;
+    float: left;
+}
+
+.fd_netWorth_list dd i{
+    display: inline-block;
+    width:.375rem;
+    height:.375rem;
+    border-radius:100%;
+    margin-right:.25rem;
+    margin-bottom:.05rem;
+}
+.fd_netWorth_list dd:first-child{
+    text-align:right;
+    padding-right:1.125rem;
+}
+.fd_netWorth_list dd:first-child i{
+    background: #5e94ef;
+}
+.fd_netWorth_list dd:last-child{
+    text-align:left;
+    padding-left:1.125rem;
+}
+.fd_netWorth_list dd:last-child i{
+    background-color: #faa90e;
+}
+/*货币基金*/
+.fdc_netWorth_list{
+    width:100%;
+    max-width:21.09375rem;
+    margin:0 auto 1.25rem auto;
+}
+.fdc_netWorth_list dd{
+    width:36%;
+    font-size:.5625rem;
+    text-align: center;
+}
+.fdc_netWorth_list dd:first-child{
+    width:28%;
+    text-align:left;
+    padding-right:0;
+}
+.fdc_netWorth_list dd:last-child{
+    width:36%;
+    text-align:right;
+    padding-left:0;
+}
+
+/*实时估值*/
+.fd_chart_inner{
+    padding:0 .625rem;
+}
+.fd_chart_left{
+    width:16%;
+    height:12.1875rem;
+}
+.fd_chart_left dd{
+    position: absolute;
+    font-size:.5625rem;
+    text-align: right;
+    margin-right:.25rem;
+    line-height:.5625rem;
+    right:0rem;
+}
+.fd_chart_left dd:nth-child(1){
+    top:-.28125rem;
+}
+.fd_chart_left dd:nth-child(2){
+    top:2.0625rem;
+}
+.fd_chart_left dd:nth-child(3){
+    top:4.40625rem;
+}
+.fd_chart_left dd:nth-child(4){
+    top:6.75rem;
+}
+.fd_chart_left dd:nth-child(5){
+    top:9.09375rem;
+}
+.fd_chart_right{
+    width:84%;
+}
+.fd_chart_date{
+    width:100%;
+    height:2.1875rem;
+}
+.fd_chart_date li{
+    font-size:.5625rem;
+    line-height:2.1875rem;
+    left:0;
+    top:0;
+    position:absolute;
+}
+.fd_chart_date li:nth-child(2){
+    left:16vw;
+}
+.fd_chart_date li:nth-child(3){
+    left:36vw;
+}
+.fd_chart_date li:nth-child(4){
+    left:52vw;
+}
+.fd_chart_date li:nth-child(5){
+    left:68vw;
+}
+/*基金详情 折线图下图表*/
+.fd_list_wrap{
+    border-bottom:12px solid #efeff4;
+}
+.fd_list_title li{
+    background-color:#fff;
+    width:50%;
+}
+.fd_list_title li:first-child{
+    border-right:0 none;
+}
+.fd_list_title li.cur{
+    border-bottom:2px solid #5e94ef;
+    color:#5e94ef;
+}
+/*业绩表现*/
+.fd_performance dt,.fd_performance dd{
+    font-size:.8125rem;
+    line-height:2.5rem;
+    width:100%;
+}
+.fd_performance dt{
+    border-bottom:1px solid #eee;
+}
+.fd_performance dd,.fd_performance dt{
+    padding:0 1.25rem;
+}
+.fd_performance dd:before{
+    content:" ";
+    display: table;
+    clear: both;
+}
+.fd_performance dd:after{
+    content:" ";
+    display: table;
+    clear: both;
+}
+.fd_performance dd h6{
+    border-bottom:1px solid #eee;
+    float: left;
+}
+.fd_performance dd p{
+    border-bottom:1px solid #eee;
+    float:left;
+}
+.fd_performance dd:last-child *{
+    border-bottom:0 none;
+}
+.fd_performance dt *{
+    font-weight: bold;
+}
+.fd_performance h6{
+    width:50%;
+    text-align: center;
+}
+.fd_performance p{
+     width:50%;
+     text-align: center;
+ }
+/*历史净值*/
+.fd_tab_body .fd_netWorth_data h5,.fd_tab_body .fd_netWorth_data p{
+    width:24%;
+    float:left;
+    text-align: center;
+}
+.fd_tab_body .fd_netWorth_data h5:first-child,.fd_tab_body .fd_netWorth_data p:first-child{
+    width:28%;
+}
+
+.fd_btn_wrap a{
+    width:100%;
+    display: block;
+    text-align:center;
+}
+/*底部基金信息*/
+.fd_bottom_info dd{
+    border-bottom:1px solid #eee;
+}
+.fd_bottom_info h6{
+    font-size:.9375rem;
+    line-height:3.125rem;
+    float:left;
+}
+.fd_bottom_info p{
+    font-size:.8125rem;
+    line-height:3.125rem;
+    float:right;
+}
+.fd_bottom_info .prompt_content p,.fd_bottom_info .fdl_prompt_bottom p{
+    float: none;
+}
+.fd_bottom_info img{
+    width:1.375rem;
+    height:1.375rem;
+    margin-top:.9375rem;
+}
+/******持仓详情******/
+.pd_title_up{
+    border-bottom: 12px solid #efeff4;
+    padding: 0 1.25rem;
+    padding-bottom: .625rem;
+}
+.pd_title_up li {
+    width: 50%;
+    height: 3.75rem;
+}
+.pd_title_up li:first-child {
+    border-right: 1px solid #eee;
+}
+.pd_title_up h6 {
+    font-size: .75rem;
+    line-height: 2.1875rem;
+    text-align: center;
+}
+.pd_title_up p {
+    font-size: 1.3125rem;
+    text-align: center;
+}
+.pd_position_details{
+    border-bottom:12px solid #efeff4;
+}
+.pd_position_details li{
+    width:50%;
+    font-size:.8125rem;
+    line-height:2.5rem;
+    height:2.5rem;
+    border-top:1px solid #d7d7d7;
+}
+.pd_position_details li:first-child{
+    border-top:0 none;
+}
+.pd_position_details li:nth-child(2){
+    border-top:0 none;
+}
+.pd_position_details li h6{
+    width:4.6875rem;
+    margin-right:1.5vw;
+}
+.pd_position_details li:nth-child(2n){
+    padding-left:2.5vw;
+}
+
+.fd_position_wrap {
+    border-bottom:0 none;
+    margin-bottom:.5rem;
+}
+.pd_info_inner{
+    margin-top:.625rem;
+}
+.pd_tab_title li{
+    border-top:1px solid #efefef;
+    font-size: .9375rem;
+    width: 50%;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 3.0625rem;
+    height: 3.0625rem;
+    border-bottom: 1px solid #efefef;
+}
+.pd_tab_title li.cur {
+    background-color: #fff;
+    color: #5e94ef;
+    border-bottom: 0 none;
+}
+/*当前净值*/
+.pd_curNetWorth dd{
+    height:3.125rem;
+    line-height:3.125rem;
+    width:50%;
+    font-size:.625rem;
+}
+.pd_curNetWorth dd:first-child p{
+    font-size:1.3125rem;
+    margin-left:.875rem;
+}
+.pd_curNetWorth dd:last-child p{
+    margin-left:.625rem;
+}
+/*交易查询*/
+.pd_tradeRecord dd{
+    border-bottom:1px solid #eee;
+    padding:0 1.25rem;
+    padding-top:.625rem;
+}
+.pd_tradeRecord dd>div:before{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.pd_tradeRecord dd>div:after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.pd_tradeRecord dd span,.pd_tradeRecord dd time{
+    float:left;
+}
+.pd_tradeRecord dd  p{
+    float:right;
+}
+.pd_tradeRecord span,.pd_tradeRecord .money{
+    font-size:.8125rem;
+    line-height:1.0625rem;
+    color:#555;
+}
+.pd_tradeRecord>dd div:last-child *{
+    font-size:.75rem;
+    line-height:1.4375rem;
+    color:#999;
+}
+/****** 帮助中心 ******/
+.h_search_wrap input{
+    width:100%;
+    height:2.5rem;
+    line-height:2.5rem;
+    border-radius:.25rem;
+    background-color:#efeff4;
+    margin-top:1.0625rem;
+    margin-bottom:.875rem;
+    padding-left:1rem;
+}
+.h_search_btn{
+    display: block;
+    width:1.375rem;
+    height:1.375rem;
+    background:url("../images/icon_seach_black.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    right:1.8125rem;
+    top:1.625rem;
+}
+.h_common_questions h5{
+    width:100%;
+    height:2.6875rem;
+    line-height:2.6875rem;
+    background-color:#efeff4;
+    font-size:.8125rem;
+    padding-left:3rem;
+    background-image:url("../images/icon_questions.png");
+    background-repeat: no-repeat;
+    background-position:1.25rem .75rem;
+    background-size:1.375rem;
+}
+.h_question_inner{
+    padding:0 .625rem;
+}
+.h_question_inner dd{
+    width:100%;
+    border-bottom:1px solid #eee;
+    padding-left:.625rem;
+}
+.h_question_inner dd p{
+    font-size:.8125rem;
+    line-height:3.125rem;
+}
+.h_question_inner dd img{
+    width:1.375rem;
+    height:1.375rem;
+    margin-top:.875rem;
+}
+/*底部四个栏目*/
+.h_colums li{
+    width:50%;
+    height:6rem;
+    padding-top:1.5rem;
+}
+.h_colums img{
+    width:13.33vw;
+    margin-left:4.933vw;
+}
+.h_colums li:nth-child(2n+1) img{
+    margin-left:12vw;
+}
+.h_colums h6{
+    font-size:.8125rem;
+    line-height:3rem;
+    margin-left:4.533vw;
+}
+.h_colums li:nth-child(2n+1) h6{
+    margin-left:2vw;
+}
+/****** 定活期理财详情 ******/
+.fdl_title{
+    text-align:center;
+    border-bottom:10px solid #efeff4;
+    padding-top:1.71875rem;
+    color:#fff;
+}
+.fdl_title h4{
+    font-size:.9375rem;
+    line-height:1.1875rem;
+}
+.fdl_title h4{
+    font-size:.9375rem;
+    line-height:1.1875rem;
+    color:#fff;
+}
+.fdl_profit{
+    font-size:2.6875rem;
+    line-height:3.3125rem;
+}
+.fdl_title h6{
+    font-size:.625rem;
+    line-height:.9375rem;
+}
+.fdl_title h5{
+    font-size:.625rem;
+    line-height:2.1875rem;
+}
+/*理财期限*/
+.fdl_term_wrap{
+    border-bottom:10px solid #efeff4;
+    padding:0 1.25rem;
+}
+.fdl_term_wrap h5 {
+    border-bottom: 1px solid #eee;
+    font-size:.9375rem;
+    line-height:3.125rem;
+    padding-left:1.875rem;
+    background-image:url("../images/icon_term.png");
+    background-repeat: no-repeat;
+    background-size:1.375rem;
+    background-position:0 .9375rem;
+}
+.fdl_term_wrap h6{
+    font-size:.75rem;
+    line-height:1.25rem;
+    margin-top:1.25rem;
+}
+.fdl_term_wrap h6 span:first-child{
+    margin-left:.4375rem;
+}
+.fdl_term_wrap h6 span:last-child{
+    margin-left:4.6875rem;
+}
+/*进度条部分*/
+.term_inner{
+    width:90%;
+    margin: 0 auto;
+    margin-bottom:3.9375rem;
+    height:1.125rem;
+    border-bottom:3px solid #eee;
+}
+.term_inner img{
+    width:.625rem;
+    height:.625rem;
+    bottom:-6px;
+}
+.icon_start{
+    left:-2px;
+}
+.icon_end{
+    left:30%;
+}
+.progress{
+    width:30%;
+    height:3px;
+    bottom:-3px;
+    left:0;
+}
+.term_inner time{
+    font-size:.5625rem;
+    bottom:-2rem;
+}
+.date_start{
+    left:-.375rem;
+}
+.date_end{
+    left:28%;
+}
+.waver_date{
+    font-size:.75rem;
+    bottom:-2rem;
+    right:0;
+}
+p.term_info{
+    width:86%;
+    padding-left:1.45rem;
+    margin-bottom:1rem;
+    font-size:.75rem;
+    line-height:1.3125rem;
+    background-image:url("../images/icon_fdl_prompt.png");
+    background-repeat: no-repeat;
+    background-size:1.375rem;
+    background-position:0 0;
+}
+/*买入取出规则*/
+.fdl_rule_wrap{
+    border-bottom:10px solid #efeff4;
+}
+.fdl_rule_title li{
+    width:50%;
+    font-size:.9375rem;
+    height:3.0625rem;
+    text-align: center;
+    line-height:3.0625em;
+    border-bottom:1px solid #eee;
+}
+.fdl_rule_title li.cur{
+    color:#5e94ef;
+    border-bottom:2px solid #5e94ef;
+}
+.fdl_rule_info {
+    padding:0 1.25rem;
+}
+.fdl_rule_info dd{
+    border-bottom:1px solid #eee;
+    font-size:.9375rem;
+    line-height:3.125rem;
+}
+.fdl_rule_info dd p{
+    line-height:1.125rem;
+    text-align: right;
+}
+.fdl_rule_info dd:before{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.fdl_rule_info dd:after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.fdl_rule_info dd span{
+    float:left;
+}
+.fdl_rule_info dd p{
+    padding-top:.4375rem;
+    float:right;
+    width:75%;
+}
+.fdl_btn_details{
+    display: block;
+    width:100%;
+    text-align: center;
+    color:#5e94ef;
+    font-size:.8125rem;
+    line-height:2.5rem;
+}
+/*底部提示列表*/
+.fdl_prompt_list{
+    border-bottom:10px solid #eee;
+}
+
+.fdl_prompt_list dd{
+    border-bottom:1px solid #eee;
+}
+.fdl_prompt_list dd div{
+    padding:0 1.25rem;
+}
+
+.fdl_prompt_list dd:last-child{
+    /*border-bottom:0 none;*/
+}
+.fdl_prompt_list dd>div:before{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.fdl_prompt_list dd>div:after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.fdl_prompt_list div>span{
+    float: left;
+    font-size:.9375rem;
+    line-height:3.125rem;
+}
+.fdl_prompt_list div>span.fdl_icon_prompt{
+    float:right;
+    width:1.375rem;
+    height:1.375rem;
+    margin-top:.9375rem;
+    margin-right:-.375rem;
+    background-image:url("../images/icon_arrow_right.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.fdl_prompt_list dd>.prompt_content{
+    border-top:1px solid #eee;
+    display:none;
+    padding:.5rem 1.25rem .8125rem 1.25rem;
+}
+.fdl_prompt_list dd.cur>.prompt_content{
+    display: block;
+}
+.fdl_prompt_list dd.cur .fdl_icon_prompt{
+    background-image:url("../images/icon_arrow_down.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.fdl_prompt_list dd:last-child{
+    border-bottom: 0 none;
+}
+.prompt_content p{
+    font-size:.75rem;
+    line-height:1.3125rem;
+    color:#999;
+}
+.prompt_content strong{
+    color:#555;
+}
+.prompt_content red{
+    color: #ff5e44;
+}
+.prompt_content blue,.prompt_content a{
+    color: #5b92f2;
+}
+.prompt_content orange{
+    color: #FF8000;
+}
+.prompt_content .content_inner{
+    background-color:#fafbfd;
+    padding:.625rem;
+}
+.prompt_content p img{
+    width:100%;
+}
+.fdl_prompt_bottom{
+    padding:0 1.25rem;
+    background-color:#efeff4;
+    padding-bottom:1.25rem;
+}
+.fdl_prompt_bottom h6{
+    width:100%;
+    font-size:.75rem;
+    line-height:1.875rem;
+    text-align: center;
+}
+.fdl_prompt_bottom p{
+    font-size:.6875rem;
+    line-height:.9375rem;
+}
+/**/
+.fdl_buy_wrap{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+}
+.fdl_buy_wrap h6{
+    width:8.5625rem;
+    height:1.5625rem;
+    border-radius:.78125rem;
+    color:#fff;
+    background-color:#faa90e;
+    text-align: center;
+    line-height:1.5rem;
+    left:50%;
+    top:-2.1875rem;
+    margin-left:-4.28125rem;
+}
+.fdl_buy_wrap h6 img{
+    width:.9375rem;
+    display: block;
+    left:50%;
+    margin-left:-.46875rem;
+    bottom:-.3rem;
+}
+.fdl_buy_wrap a{
+    display:none;
+    text-align: center;
+    line-height:2.8125rem;
+    font-size:1.125rem;
+    color:#fff;
+    background-color:#5b92f2;
+}
+/******定活期理财公告列表******/
+.fn_notices_list{
+    padding:0 1.25rem;
+    background-color:#fff;
+    border-bottom:0 none;
+}
+.fn_notices_list dd>div{
+    padding: 0;
+}
+.fn_notice_wrap .prompt_content{
+    padding:0 1.25rem;
+}
+
+.fn_notices_list dd{
+    border-bottom:1px solid #eee;
+}
+.fn_notices_list dd:before{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.fn_notices_list dd:after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.fn_notices_list dd span{
+    float: left;
+    font-size:.9375rem;
+    line-height:3.125rem;
+}
+
+.fdl_prompt_wrap .fdl_prompt_list{
+    padding-bottom:3.125rem;
+}
+.fdl_prompt_list dd span.fdl_icon_prompt{
+    float:right;
+    width:1.375rem;
+    height:1.375rem;
+    margin-top:.9375rem;
+    margin-right:-.375rem;
+    background-image:url("../images/icon_arrow_right.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+/******定活期理财公告详情页******/
+.fnd_wrap{
+    padding:0 1.125rem;
+}
+.fnd_wrap h2{
+    font-size:1.125rem;
+    line-height:1.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top:1.125rem;
+}
+.fnd_wrap p,.fnd_text dt,.fnd_text dd{
+    font-size:.8125rem;
+    line-height:1.375rem;
+}
+.fnd_table{
+    border:1px solid #e5e6e8;
+    background-color:#fff;
+}
+.fnd_table ul:before{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.fnd_table ul:after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.fnd_table li{
+    float: left;
+    text-align: center;
+    border-right:1px solid #e5e6e8;
+    border-bottom:1px solid #e5e6e8;
+    font-size:.75rem;
+}
+.fnd_table ul li:first-child{
+    width:24%;
+}
+.fnd_table ul li:nth-child(2){
+    width:36%;
+}
+.fnd_table ul li:last-child{
+    width:40%;
+    border-right:0 none;
+}
+.fnd_table ul:last-child li{
+    border-bottom:0 none;
+}
+.fnd_table_head li{
+    height:3.125rem;
+    line-height:1rem;
+    padding-top:.5625rem;
+}
+.fnd_table_head li:first-child{
+    padding-top:1.0625rem;
+}
+.fnd_table_body li{
+    height:1.875rem;
+    line-height:1.875rem;
+}
+.fnd_text{
+    margin-top:.625rem;
+}
+.fnd_text dd,.fnd_text dt{
+    margin-top:.5rem;
+}
+.fnd_text_s p{
+    margin-top:1.375rem;
+    font-size:.875rem;
+    line-height:1.375rem;
+    text-indent:1.8rem;
+}
+.fnd_inscribe{
+    margin-top:.3125rem;
+    margin-bottom:.5rem;
+}
+.fnd_inscribe p{
+    float:right;
+    width:60%;
+    text-align: right;
+    font-size:.8125rem;
+    line-height:1.5rem;
+}
+/******定活期理财交易规则******/
+.ftd_buy_inner dl.ftd_buy_top{
+    padding:0 1.25rem;
+}
+.ftd_buy_inner dd:first-child{
+    border-bottom:1px solid #eee;
+}
+.ftd_buy_top{
+    border-bottom:10px solid #efeff4;
+}
+.ftd_buy_top dd:first-child p{
+    font-size:.9375rem;
+    line-height:3.125rem;
+    height:3.125rem;
+}
+.ftd_buy_top dd:last-child{
+    padding:.6875rem 0;
+}
+.ftd_buy_top dd:last-child p{
+    font-size:.9375rem;
+    line-height:2.5rem;
+}
+.ftd_sale_top dd:last-child{
+    padding:.9375rem 0;
+}
+.ftd_sale_top dd:last-child p{
+    line-height:1.5rem;
+}
+.ftd_buy_body h5{
+    font-size:.75rem;
+    line-height:1.3125rem;
+    padding:.25rem 1.25rem;
+    border-bottom:1px solid #eee;
+}
+dl.buy_body_inner{
+    padding:1.5625rem 0;
+}
+.buy_body_inner  dt,.buy_body_inner  dd,.ftd_sale_rate dt{
+    padding:0 1.25rem;
+    background-color:#e5e5e5;
+}
+.buy_body_inner  dd:nth-child(2n),.ftd_sale_rate  dd:nth-child(2n){
+    background-color: #f5f5f5;
+}
+.buy_body_inner  dt h6{
+    font-size:.8125rem;
+    font-weight: bold;
+    line-height:1.875rem;
+    width:50%;
+    text-align: center;
+    margin-top:.3125rem;
+}
+.buy_body_inner  dd p,.buy_body_inner  dd span{
+    width:50%;
+    text-align: center;
+    font-size:.8125rem;
+    line-height:1.875rem;
+}
+/*取出规则*/
+.ftd_sale_body h5{
+    padding:.90625rem 1.25rem;
+}
+.ftd_buy_body{
+    border-bottom:10px solid #efeff4;
+}
+.ftd_sale{
+    border-bottom:10px solid #efeff4;
+}
+.ftd_sale h5{
+    font-size:.75rem;
+    line-height:3.125rem;
+    padding:0 1.25rem;
+    border-bottom:1px solid #eee;
+}
+dl.ftd_sale_rate{
+    padding-top: .9375rem;
+    padding-bottom:1.25rem;
+}
+.ftd_sale_rate h6{
+    font-size:.8125rem;
+    line-height:1.875rem;
+    font-weight:bold;
+    text-align: center;
+}
+.ftd_sale_rate h6:nth-child(1),.ftd_sale_rate dd p:nth-child(1){
+    width:40%;
+}
+.ftd_sale_rate h6:nth-child(2),.ftd_sale_rate dd p:nth-child(2){
+    width:36%;
+}
+.ftd_sale_rate h6:nth-child(3),.ftd_sale_rate dd p:nth-child(3){
+    width:24%;
+}
+.ftd_sale_rate dd p{
+    font-size:.8125rem;
+    line-height:1.5625rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
