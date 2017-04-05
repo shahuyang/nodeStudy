@@ -1,0 +1,50 @@
+{
+  "code": "200",
+  "message": "success",
+  "data": {
+    "assetCode": "2017011900007",
+    "assetName": "盘兴能源专项资产管理计划五号",
+    "assetShorthand": "盘兴能源专项资产五号",
+    "assetType": "",
+    "termType": "02",
+    "termDateNum": null,
+    "termDateType": null,
+    "termEndTime": "2019-08-10",
+    "startingInvAmount": "100",
+    "increaseAmount": "以10万元整数倍递增",
+    "benchmarkType": "02",
+    "benchmark": "7.2% - 7.5%",
+    "benchmarkDetail": "7.2%(100万≤委托金额<300万)7.5%(300万≤委托金额)",
+    "assetState": "01",
+    "assetStateName": "立即预约",
+    "comments": "百强县融资，应收账款质押，政府确权，AA主体担保。",
+    "organization": "首誉光控资产管理有限公司",
+    "expectScale": "3000万",
+    "incomeDistribution": "每年6月20日，12月20日及终止日",
+    "issueTime": "",
+    "investAuthDesc": "自份额成立之日（含）起至2019年8月10日（不含）止",
+    "propagandaLabelList": [ ],
+    "productList": [
+      {
+        "productName": "用款项目",
+        "productDescribe": "采煤沉陷区综合治理集中搬迁项目。位于贵州省六盘水市盘县盘关镇。项目建设内容为集中搬迁安置736户2622人，安置区总建筑面积147200平方米、电力管网6000 米、通信管网6000米、村卫生室1200平方米、乡镇卫生院2100平方米、复绿治理2.2平 方公里。建设工期为36个月。项目建设总投资为3.06亿元，资金来源为企业自筹；目前土地预审、规划选址、环评已批复，可研、工程招标初步方案已批复。"
+      },
+      {
+        "productName": "融资人",
+        "productDescribe": "贵州盘县盘兴能源开发投资有限公司"
+      },
+      {
+        "productName": "担保人",
+        "productDescribe": "贵州宏财投资集团有限责任公司"
+      },
+      {
+        "productName": "还款来源",
+        "productDescribe": "盘县政府对用款项目的回购款；融资方的资金统筹；担保方的资金统筹；盘县政府对应收账款的回购"
+      },
+      {
+        "productName": "风控措施",
+        "productDescribe": "1.5倍的应收账款质押政府对应收账款进行确权贵州宏财(主体及债信评级均AA)提供无限连带责任担保"
+      }
+    ]
+  }
+}
